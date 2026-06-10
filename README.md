@@ -30,7 +30,7 @@ This project was created as part of the Jack Henry Software Engineer Apprentice 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bender010/jh-weather-api.git
 cd jh-weather-api
 ```
 
