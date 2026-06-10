@@ -111,7 +111,7 @@ npm run build
 For simplicity, this implementation:
 
 * Uses the NWS `/points/{lat},{lon}` endpoint to discover the forecast endpoint
-* Uses the first daytime forecast period returned by NWS
+* Selects the most relevant current forecast period returned by NWS, with fallback logic for varying forecast period names.
 * Performs basic input validation
 * Returns a simplified forecast response focused on assignment requirements
 
