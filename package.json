@@ -1,11 +1,14 @@
 {
   "name": "jh-weather-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Weather Service API coding exercise for JH",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "test": "vitest"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
