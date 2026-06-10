@@ -138,3 +138,15 @@ https://jh-weather-api.onrender.com
 Example weather request:
 
 https://jh-weather-api.onrender.com/api/weather?lat=39.7456&lon=-97.0892
+
+### Hosting Note
+
+This application is deployed using Render's free hosting tier. If the service has been inactive, the first request may take several seconds to respond while the instance starts. Subsequent requests should respond normally once the service is running.
+
+### Assumptions
+
+* Temperatures of 45°F and below are classified as "cold"
+* Temperatures of 85°F and above are classified as "hot"
+* Temperatures between 46°F and 84°F are classified as "moderate"
+
+These thresholds were selected as a simple heuristic for the purposes of the assignment and could be adjusted based on business requirements.

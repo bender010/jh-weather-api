@@ -4,11 +4,11 @@
   "description": "Weather Service API coding exercise for JH",
   "main": "dist/server.js",
   "scripts": {
-  "dev": "tsx watch src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js",
-  "test": "vitest"
-},
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
