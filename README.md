@@ -128,3 +128,13 @@ Potential future improvements:
 AI-assisted tooling was used during development for guidance, code generation, troubleshooting, and learning TypeScript/Node.js patterns.
 
 All generated code was reviewed, tested, modified, and committed incrementally as part of the development process.
+
+## Live Demo
+
+Base URL:
+
+https://jh-weather-api.onrender.com
+
+Example weather request:
+
+https://jh-weather-api.onrender.com/api/weather?lat=39.7456&lon=-97.0892
