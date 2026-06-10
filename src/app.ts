@@ -39,7 +39,9 @@ app.get("/api/weather", async (req, res) => {
   try {
     const forecast = await getWeatherForecast(lat, lon);
     return res.json(forecast);
-  } catch {
+  } catch (error) {
+    console.error("Weather forecast error:", error);
+
     return res.status(502).json({
       error: "Unable to retrieve forecast from the National Weather Service."
     });
